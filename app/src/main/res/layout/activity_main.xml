@@ -16,11 +16,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
 
-    <com.lqh.lichao.paint_gradient.LinearGradientTextView
+    <!--<com.lqh.lichao.paint_gradient.LinearGradientTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textColor="#666666"
-        android:text="安卓高级UI欢迎朋友们来给建议和顺便Star"/>
+        android:text="安卓高级UI欢迎朋友们来给建议和顺便Star"/>-->
+
+    <com.lqh.lichao.paint_gradient.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:text="@string/button_name"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Paint_Gradient</string>
+    <string name="button_name">button</string>
 </resources>
