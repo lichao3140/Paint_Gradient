@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,12 +23,39 @@
         android:textColor="#666666"
         android:text="安卓高级UI欢迎朋友们来给建议和顺便Star"/>-->
 
-    <com.lqh.lichao.paint_gradient.RippleView
+    <!--<com.lqh.lichao.paint_gradient.RippleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:background="@android:color/darker_gray"
         android:layout_margin="10dp"
-        android:text="@string/button_name"/>
+        android:text="@string/button_name"/>-->
 
-</android.support.constraint.ConstraintLayout>
+    <com.lqh.lichao.paint_gradient.RadarView
+        android:id="@+id/radarview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:backgroundColor="#000000"
+        app:circleNum="4"
+        app:endColor="#aaff0000"
+        app:lineColor="#00ff00"
+        app:startColor="#aa0000ff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="start"
+        android:text="开始" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="stop"
+        android:text="停止" />
+
+</RelativeLayout>

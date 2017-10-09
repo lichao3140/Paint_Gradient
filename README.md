@@ -11,5 +11,8 @@
 ## 霓虹灯效果
 ![霓虹灯效果](/screenshot/device-2017-10-09-140732.png "霓虹灯效果")
 ==
+## 雷达扫描效果
+![](/screenshot/device-2017-10-09-162754.png "雷达扫描效果")
+==
 ## 按钮点击水波纹效果
 ![](/screenshot/RippleView.gif "按钮点击水波纹效果")
