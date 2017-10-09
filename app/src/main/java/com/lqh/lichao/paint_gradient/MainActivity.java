@@ -8,8 +8,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-        ZoomImageView view = new ZoomImageView(this);
-        setContentView(view);
+        setContentView(R.layout.activity_main);
+//        ZoomImageView view = new ZoomImageView(this);
+//        setContentView(view);
     }
 }
